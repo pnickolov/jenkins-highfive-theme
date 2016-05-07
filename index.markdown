@@ -2,8 +2,7 @@
 layout: default
 ---
 
-So you love **Jenkins** but hate its ugly user interface and icons... Me too! Introducing **Jenkins Material Theme**.
-You can turn your favorite frog CI tool into a handsome prince in few steps! Install this Jenkins Theme!  
+This is a Highfive-themed fork of [Jenkins Material Theme](https://jenkins-contrib-themes.github.io/jenkins-material-theme/).
  
 ## Features
 * Just one small css file (35K)
@@ -11,6 +10,9 @@ You can turn your favorite frog CI tool into a handsome prince in few steps! Ins
 * Multiple ways to install
 
 ## Screenshots
+
+**TODO: Update these screenshots**
+
 [![Screenshot jenkins-theme-material main](images/screenshot-jenkins-theme-material-main.png)](images/screenshot-jenkins-theme-material-main-large.png)      [![Screenshot jenkins-theme-material legend](images/screenshot-jenkins-theme-material-legend.png)](images/screenshot-jenkins-theme-material-legend-large.png)      [![Screenshot jenkins-theme-material console](images/screenshot-jenkins-theme-material-console.png)](images/screenshot-jenkins-theme-material-console-large.png)
 
 ## Installation 
@@ -23,29 +25,16 @@ You can turn your favorite frog CI tool into a handsome prince in few steps! Ins
 
 1. Click `Configure System` and scroll down to `Theme`
 
-1. Specify the URL for `https://jenkins-contrib-themes.github.io/jenkins-material-theme/dist/material-light.css`.
+1. Specify the URL for `https://parlaylabs.github.io/jenkins-highfive-theme/dist/material-light.css`.
 
 1. Click `Save`
-
-
-### Using the Native Jenkins Plugin
-
-1. Download the file https://github.com/jenkins-contrib-themes/jenkins-material-theme/raw/master/hpi/material-theme.hpi
-
-1. Go to `Manage Jenkins > Plugins > Advanced`
-
-1. Select the downloaded file in the area `Upload Plugin`
-
-1. Click `Upload`
-
-1. Restart your Jenkins Server
 
 
 ### Using Stylish (only you will be able to see the awesome theme)
 
 1. Install the [Stylish Chrome extension][stylish]
 
-1. Copy the content of the file `https://jenkins-contrib-themes.github.io/jenkins-material-theme/dist/material-light.css`
+1. Copy the content of the file `https://parlaylabs.github.io/jenkins-highfive-theme/dist/material-light.css`
 
 1. Go to Stylish options and click in `Write new style`
 
