@@ -1,10 +1,10 @@
 {
-  "name": "jenkins-material-theme",
-  "version": "1.2.3",
-  "description": "Material design theme for Jenkins",
+  "name": "jenkins-highfive-theme",
+  "version": "1.0.0",
+  "description": "Highfive theme for Jenkins",
   "repository": {
     "type": "git",
-    "url": "https://github.com/afonsof/jenkins-material-theme"
+    "url": "https://github.com/parlaylabs/jenkins-highfive-theme"
   },
   "keywords": [
     "material design",
@@ -13,7 +13,8 @@
   "author": "Afonso F",
   "contributors": [
     "David Porter",
-    "Brady Vitrano"
+    "Brady Vitrano",
+    "Jameel Al-Aziz"
   ],
   "license": "MIT",
   "devDependencies": {

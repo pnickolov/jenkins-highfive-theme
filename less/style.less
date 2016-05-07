@@ -1,9 +1,9 @@
-@import 'variables';
 @import '../node_modules/jenkins-core-theme/less/functions';
 @import '../node_modules/jenkins-core-theme/less/images';
 @import '../node_modules/jenkins-core-theme/less/codemirror';
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,300);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,500,300);
+@import 'variables';
 
 :not(div.ace_content) {
   font-family: 'Roboto', sans-serif !important;
@@ -49,14 +49,14 @@ a, a:hover, a:visited, a:link {
 
 #header {
   .shadow1();
-  height: 64px;
+  height: 50px;
   background-color: @color-primary;
   text-transform: uppercase;
   right: 0;
   left: 0;
   top: 0;
   letter-spacing: 1px;
-  padding: 12px 10px;
+  padding: 5px 10px;
   z-index: 2000;
 
   .login {
@@ -69,7 +69,7 @@ a, a:hover, a:visited, a:link {
   }
 
   #search-box {
-    background: @color-bg;
+    background: @color-primary-dark;
     padding-left: 10px;
   }
 }
@@ -100,6 +100,29 @@ A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
   color: #888 !important;
   text-decoration: none;
   text-shadow: 0 1px #fff
+}
+
+.pane-frame {
+  border: 0;
+
+  &:hover, &.mouseover {
+    border: 0 !important;
+  }
+
+ .pane-header, .pane-footer {
+  background: @color-bg;
+  margin-bottom: 5px;
+  border-radius: 0;
+  border: 0;
+ }
+
+ .pane-header {
+  border-bottom: 2px solid @color-accent-light;
+ }
+
+ .single-line:hover, .single-line.model-link-active {
+  background: @color-accent-light !important;
+ }
 }
 
 table.pane tr:nth-child(odd) td {
