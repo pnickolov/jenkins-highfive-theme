@@ -134,12 +134,6 @@ A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
  }
 }
 
-.bigtable {
-  th  {
-    background-color: transparent;
-  }
-}
-
 table.pane tr:nth-child(odd) td {
   background-color: @color-white
 }
@@ -152,6 +146,9 @@ th.pane {
   .tab {
     &:first-child {
       margin-left: 0;
+    }
+    &.active a {
+      color: #404040
     }
     a {
       padding: 5px 10px;
