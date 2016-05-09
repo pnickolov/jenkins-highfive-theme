@@ -68,6 +68,12 @@ grunt
 This will generate the following file:
 - dist/material-light.css
 
+You can test the changes before committing using Stylish
+
+## Deployment
+
+After committing and pushing the changes, run `publish.sh`
+
 ## Compatibility
 - Simple Theme plugin 0.3
 - Jenkins 1.636
