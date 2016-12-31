@@ -1,4 +1,5 @@
-# jenkins-material-theme
+![image](https://parlaylabs.github.io/jenkins-highfive-theme/images/logo.svg)
+# jenkins-material-theme [![Build Status](https://travis-ci.org/parlaylabs/jenkins-highfive-theme.svg?branch=master)](https://travis-ci.org/parlaylabs/jenkins-highfive-theme)
 Beautify your Jenkins with the Highfive theme!
 
 Website: https://parlaylabs.github.io/jenkins-highfive-theme
@@ -9,51 +10,65 @@ This is a Highfive-themed fork of [Jenkins Material Theme](https://jenkins-contr
 * Just one small css file (35K)
 * Embed minified SVG images
 * Multiple ways to install
-* Use your own Company logo with the [generator][generator]
+* Customize the color and logo using the [generator][generator]
 
 ## Screenshots
 
 **TODO: Update these screenshots**
 
-[![Screenshot jenkins-material-theme main](images/screenshot-jenkins-material-theme-main.png)](images/screenshot-jenkins-material-theme-main-large.png)      [![Screenshot jenkins-material-theme legend](images/screenshot-jenkins-material-theme-legend.png)](images/screenshot-jenkins-material-theme-legend-large.png)      [![Screenshot jenkins-material-theme console](images/screenshot-jenkins-material-theme-console.png)](images/screenshot-jenkins-material-theme-console-large.png)
+[![Screenshot jenkins-material-theme main](https://parlaylabs.github.io/jenkins-highfive-theme/images/screenshot-jenkins-theme-material-main.png)](https://parlaylabs.github.io/jenkins-highfive-theme/images/screenshot-jenkins-theme-material-main-large.png)      [![Screenshot jenkins-material-theme legend](https://parlaylabs.github.io/jenkins-highfive-theme/images/screenshot-jenkins-theme-material-legend.png)](https://parlaylabs.github.io/jenkins-highfive-theme/images/screenshot-jenkins-theme-material-legend-large.png) [![Screenshot jenkins-material-theme console](https://parlaylabs.github.io/jenkins-highfive-theme/images/screenshot-jenkins-theme-material-console.png)](https://parlaylabs.github.io/jenkins-highfive-theme/images/screenshot-jenkins-theme-material-console-large.png)
+[![Screenshot jenkins-material-theme history](https://parlaylabs.github.io/jenkins-highfive-theme/images/screenshot-jenkins-theme-material-history.png)](https://parlaylabs.github.io/jenkins-highfive-theme/images/screenshot-jenkins-theme-material-history-large.png)
+
 
 
 ## Installation 
 
 ### Using this GitHub page (recommended) (auto-updated)
 
-1. Install [Jenkins Simple Theme Plugin][simple]
+1. Choose your color:
+![image](https://parlaylabs.github.io/jenkins-highfive-theme/images/pallete.png)
 
-1. Click `Manage Jenkins`
+2. Replace `{{your-color-name}}` in the URL by the chosen color: `https://parlaylabs.github.io/jenkins-highfive-theme/dist/material-{{your-color-name}}.css`
 
-1. Click `Configure System` and scroll down to `Theme`
+3. Install [Jenkins Simple Theme Plugin][simple]
 
-1. Specify the URL for `https://parlaylabs.github.io/jenkins-highfive-theme/dist/material-light.css`.
+4. Click `Manage Jenkins`
 
-1. Click `Save`
+5. Click `Configure System` and scroll down to `Theme`
+
+6. Set the CSS field to the generated URL.
+
+7. Click `Save`
+
 
 ### Using your Jenkins Hosting
 
-1. Upload the file `https://parlaylabs.github.io/jenkins-highfive-theme/dist/material-light.css` to your web server
+1. Follow the step 1 and 2 of the previous method
 
-1. Follow the steps of the previous method using your uploaded file as URL in step 4
+2. Download the generated URL
+
+3. Upload the downloaded file to your web server
+
+4. Follow the steps 3 to 7 of the previous method using your uploaded file as URL in step 6
 
 
 ### Using Stylish (only you will be able to see the awesome theme)
 
-1. Install the [Stylish Chrome extension][stylish]
+1. Follow the step 1 and 2 of the previous method
 
-1. Copy the content of the file `https://parlaylabs.github.io/jenkins-highfive-theme/dist/material-light.css`
+2. Copy the content of the downloaded file
 
-1. Go to Stylish options and click in `Write new style`
+3. Install the [Stylish Chrome extension][stylish]
 
-1. Paste the theme css in the code box
+4. Go to Stylish options and click in `Write new style`
 
-1. Click in `Specify` and set your jenkins domain
+5. Paste the theme css in the code box
 
-1. Click in `Save`
+6. Click in `Specify` and set your jenkins domain
 
-1. Go to your Jenkins website and enable the theme in the Stylish Chrome toolbar icon
+7. Click in `Save`
+
+8. Go to your Jenkins website and enable the theme in the Stylish Chrome toolbar icon
 
 
 ## Development
@@ -104,5 +119,5 @@ http://afonsof.mit-license.org/
 [stylish]: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe
 [canon-jenkins]: https://github.com/rackerlabs/canon-jenkins
 [heldroe]: https://github.com/Heldroe
-[generator]: http://jenkins-contrib-themes.github.io/jenkins-material-theme
+[generator]: https://parlaylabs.github.io/jenkins-highfive-theme
 [bootstraponline]: https://github.com/bootstraponline
