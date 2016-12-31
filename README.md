@@ -1,5 +1,5 @@
 ![image](https://parlaylabs.github.io/jenkins-highfive-theme/images/logo.svg)
-# jenkins-material-theme [![Build Status](https://travis-ci.org/parlaylabs/jenkins-highfive-theme.svg?branch=master)](https://travis-ci.org/parlaylabs/jenkins-highfive-theme)
+# jenkins-highfive-theme [![Build Status](https://travis-ci.org/parlaylabs/jenkins-highfive-theme.svg?branch=master)](https://travis-ci.org/parlaylabs/jenkins-highfive-theme)
 Beautify your Jenkins with the Highfive theme!
 
 Website: https://parlaylabs.github.io/jenkins-highfive-theme

@@ -136,8 +136,8 @@ module.exports = function (grunt) {
                             replacement: pkg.version
                         },
                         {
-                            match: /material-theme<\/artifactId>\s+<version>[^>]*<\/version>/g,
-                            replacement: 'material-theme</artifactId>\n    <version>' + pkg.version + '</version>'
+                            match: /jenkins-highfive-theme<\/artifactId>\s+<version>[^>]*<\/version>/g,
+                            replacement: 'jenkings-highfive-theme</artifactId>\n    <version>' + pkg.version + '</version>'
                         }
                     ]
                 },

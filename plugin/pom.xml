@@ -9,8 +9,8 @@
     </parent>
 
     <groupId>com.highfive.jenkins-highfive-theme</groupId>
-    <artifactId>jenkins-highfive-theme</artifactId>
-    <version>1.1.0</version>
+    <artifactId>jenkings-highfive-theme</artifactId>
+    <version>1.1.1</version>
     <packaging>hpi</packaging>
 
     <name>Material Design Theme Plugin</name>
